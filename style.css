@@ -1,40 +1,47 @@
-.body{
-    margin:50px 100px;
+body{
     display: grid;
+    margin:50px 100px;
     justify-content: center;
 }
 .calculator{
     display: grid;
+    justify-content: center;
     border:2px solid black;
     width:400px;
-    height:400px;
-    padding: 20px;
-    justify-content: center;
+    height:500px;
+    padding: 40px 40px;
+    background-color: aqua;
 }
-.trow1{
+.thead{
     border: 2px solid black;
-    height: 20px;
-    width: 350px;
+    margin: 1px;
 }
-.trow2{
+#th1{
+    width: 215px;
+    height: 65px;
     border: 2px solid black;
-    height: 20px;
-    width: 350px;
-}
-.trow3{
+    background-color: black;
+    color: white;
+}  
+#th2{
     border: 2px solid black;
-    height: 20px;
-    width: 350px;
-}
-.trow4{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 30PX;
+    background-color: blue;
+    color: red;
+}  
+.tdata{
     border: 2px solid black;
-    height: 20px;
-    width: 350px;
+    margin: 1px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    font-size: 50PX;
+    background-color: blue;
+    color: white;
 }
-.trow5{
-    border: 2px solid black;
-    height: 20px;
-    width: 350px;
+#tda{
+    color: red;
 }
-
-
