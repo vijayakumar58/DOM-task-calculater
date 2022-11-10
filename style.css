@@ -1,0 +1,40 @@
+.body{
+    margin:50px 100px;
+    display: grid;
+    justify-content: center;
+}
+.calculator{
+    display: grid;
+    border:2px solid black;
+    width:400px;
+    height:400px;
+    padding: 20px;
+    justify-content: center;
+}
+.trow1{
+    border: 2px solid black;
+    height: 20px;
+    width: 350px;
+}
+.trow2{
+    border: 2px solid black;
+    height: 20px;
+    width: 350px;
+}
+.trow3{
+    border: 2px solid black;
+    height: 20px;
+    width: 350px;
+}
+.trow4{
+    border: 2px solid black;
+    height: 20px;
+    width: 350px;
+}
+.trow5{
+    border: 2px solid black;
+    height: 20px;
+    width: 350px;
+}
+
+
