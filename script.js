@@ -6,16 +6,17 @@ tr1.classList.add("trow");
 
 var th1=document.createElement("th");
 var bh1=document.createElement("input");
-bh1.classList.add("thead");
+bh1.classList.add("thead","th1");
 bh1.setAttribute("type","text");
-bh1.setAttribute("id","th1");
+bh1.setAttribute("id","result");
 th1.append(bh1);
 
 var th2=document.createElement("th");
 var bh2=document.createElement("input");
 bh2.classList.add("thead");
 bh2.setAttribute("type","button")
-bh2.setAttribute("value","AC")
+bh2.setAttribute("value","AC");
+bh2.setAttribute("onclick","clearscreen()");
 bh2.setAttribute("id","th2");
 th2.append(bh2);
 tr1.append(th1,th2);
@@ -158,7 +159,7 @@ var bt15=document.createElement("input");
 bt15.classList.add("tdata");
 bt15.setAttribute("type","button");
 bt15.setAttribute("value","=");
-bt15.setAttribute("onclick","display('=')");
+bt15.setAttribute("onclick","calculate()");
 bt15.setAttribute("id","tda");
 td15.append(bt15);
 
@@ -174,3 +175,17 @@ td16.append(bt16);
 tr5.append(td13,td14,td15,td16);
 table.append(tr1,tr2,tr3,tr4,tr5);
 document.body.append(table);
+
+function clearscreen(){
+    document.getElementById("result").value = "";
+}
+
+function display(value) {
+    document.getElementById("result").value += value;
+}
+
+function calculate(){
+    var a = document.getElementById("result").value;
+    var b = eval(a);
+    document.getElementById("result").value = b;
+}
