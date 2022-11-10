@@ -19,6 +19,7 @@ body{
 #th1{
     width: 215px;
     height: 65px;
+    font-size: large;
     border: 2px solid black;
     background-color: black;
     color: white;
