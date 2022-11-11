@@ -13,14 +13,13 @@ body{
     background-color: aqua;
 }
 .thead{
-    border: 2px solid black;
     margin: 1px;
 }
 .th1{
     width: 215px;
     height: 65px;
-    font-size: large;
-    border: 2px solid black;
+    font-size: 20px;
+    border: 2px solid rgb(249, 6, 6);
     background-color: black;
     color: white;
 }  
