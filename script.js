@@ -1,3 +1,8 @@
+const head = document.createElement("h1");
+head.setAttribute("class","head");
+head.innerHTML="SIMPLE CALCULATER";
+document.body.append(head);
+
 var table=document.createElement("table");
 table.classList.add("calculator");
 
