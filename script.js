@@ -194,3 +194,11 @@ function calculate(){
     var b = eval(a);
     document.getElementById("result").value = b;
 }
+
+// function alertbutton(){
+//     if(onclick !=Number||=||-||*||/||.||AC){
+//           alert("Enter only numbers")
+//     }else{
+
+//     }
+// }
